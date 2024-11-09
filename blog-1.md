@@ -9,12 +9,12 @@ We can hold multiple types by using Union types. Example here:
 ### typescript
 
 ```
-const age: string | number;
+const age: string | number; // it's called Union types
 age = "sixteen"; // valid
 age = 16; // valid
 ```
 
-If we not sure about the variable type then we can use Union type, it's us flexibility for that.
+If we not sure about the variable type then we can use Union type, it's give us flexibility for that.
 
 ### typescript
 
@@ -38,7 +38,7 @@ Intersection types combine multiple types into one. We can use multiple combine 
 type Name = { name: string };
 type Age = { age: number };
 
-type Person = Name & Age;
+type Person = Name & Age; // it's called Intersection types
 
 const person: Person = { name: "Rakib", age: 19 };
 ```

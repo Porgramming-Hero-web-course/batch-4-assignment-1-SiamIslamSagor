@@ -11,7 +11,7 @@
 
   type Shape = Circle | Rectangle;
 
-  function calculateShapeArea(shape: Shape) {
+  function calculateShapeArea(shape: Shape): string | number {
     if (shape.shape === "circle") {
       return (Math.PI * shape.radius * shape.radius).toFixed(2);
     } else if (shape.shape === "rectangle") {
